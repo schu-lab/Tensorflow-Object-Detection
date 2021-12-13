@@ -2,10 +2,13 @@
 TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg and .xml [Pascal VOC format])
 
 <div align="center">
-  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" /><br /><br />
+  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" width="200" /><br /><br />
 </div>
 
-Project to utilize TensorFlow to detect objects. 
+![](https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Raspberry-Pi.jpg | width=100)
+![](https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg | width=100)
+
+[Project to utilize TensorFlow to detect objects] 
 
 References: 
 * https://sci2s.ugr.es/weapons-detection
