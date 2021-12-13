@@ -17,44 +17,44 @@ Data Sets:
 * [Android Toys Data Set - .jpg + .xml (Pascal VOC)] https://storage.googleapis.com/download.tensorflow.org/data/android_figurine.zip
 
 
-[Initial Raspberry Pi Setup:]
+# [Initial Raspberry Pi Setup:]
 
-[In Terminal: Show your Raspberry Pi version:]
+(1) [In Terminal: Show your Raspberry Pi version:]
 cat /etc/os-release
 
-[Update packages on your Raspberry Pi OS:]
+(2) [Update packages on your Raspberry Pi OS:]
 sudo apt-get update
 
-[Check Python Version:]
+(3) [Check Python Version:]
 python --version
 
-[Create / Move to a local directory:]
+(4) [Create / Move to a local directory:]
 cd Projects/
 mkdir Chu-Object-Detection-Fall-2021
 cd Chu-Object-Detection-Fall-2021
 
-[Install virtualenv and upgrade pip:]
+(5) [Install virtualenv and upgrade pip:]
 python -m pip install --upgrade pip
 python -m pip install virtual env
 
-[Create a Python virtual enviroment for TFLite samples:]
+(6) [Create a Python virtual enviroment for TFLite samples:]
 python -m venv ~/tflite
 
 
-[Initialize Virtual Enviroment + Run Object Recognition Script:]
-[Activate Virtual Enviroment; Run this command when a new Terminal is open:]
+# [Initialize Virtual Enviroment + Run Object Recognition Script:]
+(1) [Activate Virtual Enviroment; Run this command when a new Terminal is open:]
 source ~/tflite/bin/activate
 
-[Change to working Directory:]
+(2) [Change to working Directory:]
 pwd
 cd 'working directory with the the files'
 
-[Download Directory:]
+(3) [Download Repo:]
 git clone https://github.com/schu-lab/TensorFlow-Object-Detection.git
 
-[Run Object Detection Script (without model):]
+(5a) [Run Object Detection Script (without model):]
 python Chu-Object-Detection-Fall-2021.py
 
-[Run Object Detection Script (with model):]
+(5b) [Run Object Detection Script (with model):]
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 ** NOTE: Use android.tflite file for FILE_NAME **
