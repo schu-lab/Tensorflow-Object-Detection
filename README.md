@@ -2,11 +2,11 @@
 TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg and .xml [Pascal VOC format])
 
 <div align="center">
-  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" width="200" /><br /><br />
+  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" width="400" /><br /><br />
 </div>
 
-![](https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Raspberry-Pi.jpg | width=100)
-![](https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg | width=100)
+<img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Raspberry-Pi.jpg" | width="200")>
+<img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg" | width="200")<br /><br />>
 
 [Project to utilize TensorFlow to detect objects] 
 
