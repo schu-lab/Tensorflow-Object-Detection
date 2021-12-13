@@ -4,7 +4,7 @@
 # Last Updated: 12/12/21
 # Revision: X6
 # Description: Object Detection using Tensor Flow and Open CV.
-# # Refereces:
+# # Based on:
 # (1) https://www.tensorflow.com - Examples - detect.py
 # (2) Model Maker Object Detection for Android Figure - Images and Pascal VOC
 #     (.jpg + .xml formats)
@@ -23,20 +23,10 @@ from object_detector import ObjectDetector
 from object_detector import ObjectDetectorOptions
 import utils
 
-
+# Continuously run inference on images acquired from the camera.
 def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
         enable_edgetpu: bool) -> None:
-  """Continuously run inference on images acquired from the camera.
-
-  Args:
-    model: Name of the TFLite object detection model.
-    camera_id: The camera id to be passed to OpenCV.
-    width: The width of the frame captured from the camera.
-    height: The height of the frame captured from the camera.
-    num_threads: The number of CPU threads to run the model.
-    enable_edgetpu: True/False whether the model is a EdgeTPU model.
-  """
-
+    
   # Variables to calculate FPS
   counter, fps = 0, 0
   start_time = time.time()
@@ -46,10 +36,10 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
   cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
   cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
-  # Visualization parameters
+  # Frame Rate
   row_size = 20 
   left_margin = 24 
-  text_color = (0, 0, 255) 
+  text_color = (0, 255, 0) 
   font_size = 1
   font_thickness = 1
   fps_avg_frame_count = 10
@@ -94,7 +84,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
     # Stop the program if the ESC key is pressed.
     if cv2.waitKey(1) == 27:
       break
-    cv2.imshow('object_detector', image)
+    cv2.imshow('Chu-Object-Detector-Fall-2021', image)
 
   cap.release()
   cv2.destroyAllWindows()

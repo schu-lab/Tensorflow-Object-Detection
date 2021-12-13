@@ -23,7 +23,7 @@ _MARGIN = 10  # pixels
 _ROW_SIZE = 10  # pixels
 _FONT_SIZE = 1
 _FONT_THICKNESS = 1
-_TEXT_COLOR = (0, 0, 255)  # red
+_TEXT_COLOR = (0, 255, 0)  # red
 
 
 def visualize(
@@ -43,13 +43,13 @@ def visualize(
     # Draw bounding_box
     start_point = detection.bounding_box.left, detection.bounding_box.top
     end_point = detection.bounding_box.right, detection.bounding_box.bottom
-    cv2.rectangle(image, start_point, end_point, _TEXT_COLOR, 3)
+    cv2.rectangle(image, start_point, end_point, _TEXT_COLOR, 2)
 
     # Draw label and score
     category = detection.categories[0]
     class_name = category.label
-    probability = round(category.score, 2)
-    result_text = class_name + ' (' + str(probability) + ')'
+    probability = round(category.score * 100, 1)
+    result_text = class_name + ' (' + str(probability) + '%)'
     text_location = (_MARGIN + detection.bounding_box.left,
                      _MARGIN + _ROW_SIZE + detection.bounding_box.top)
     cv2.putText(image, result_text, text_location, cv2.FONT_HERSHEY_PLAIN,
