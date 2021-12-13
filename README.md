@@ -1,6 +1,10 @@
 # TensorFlow-Object-Detection
 TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg and .xml [Pascal VOC format])
 
+<div align="center">
+  <img src="https://www.tensorflow.org/images/tf_logo_social.png" /><br /><br />
+</div>
+
 Project to utilize TensorFlow to detect objects. 
 
 References: 
