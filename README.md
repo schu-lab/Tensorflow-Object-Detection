@@ -57,4 +57,30 @@ python Chu-Object-Detection-Fall-2021.py
 
 (5b) [Run Object Detection Script (with model):]
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
+
 ** NOTE: Use android.tflite file for FILE_NAME **
+
+# [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]
+NOTE: From TensorFlow Website: https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb
+
+(2) [Preparation - Install packages]:
+pip install -q tflite-model-maker
+pip install -q tflite-support
+
+(3) [Prepare Dataset by downloading images and annotating using Pascal VOC format (.xml)]:
+NOTE: Use labelImg or equivilent https://github.com/tzutalin/labelImg
+
+(4) [Select model architecture]: EfficientDet-Lite'0'
+NOTE: Dependency on Speed to Precision '0' to '4'
+
+(5) [Train the TensorFlow model with Training Data]:
+NOTE: Typically 80% Training Model + 20% Test Model
+
+(6) [Test the TensorFlow model with Test Data]:
+NOTE: Note the Average Precision (AP) based on the model architecture
+
+(7) [Export the TensorFlow Lite model:]
+model.export(export_dir='.', tflite_filename='FILE_NAME.tflite')
+NOTE: FILE_NAME is name of the file
+
+(8) [Evaluate TensorFlow Lite Model]
