@@ -3,8 +3,6 @@ TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg
 
 <div align="center">
   <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" width="400" /><br /><br />
-  <img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Raspberry-Pi.jpg" | height="200")>
-  <img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg" | height="200")><br /><br />
 </div>
 
 [Project to utilize TensorFlow to detect objects] 
@@ -22,6 +20,13 @@ Data Sets:
 * [Handgun Annotation] https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS_bbox.zip
 * [Android Toys Data Set - .jpg + .xml (Pascal VOC)] https://storage.googleapis.com/download.tensorflow.org/data/android_figurine.zip
 
+# Hardware Required:
+<div align="center">
+  <img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg" | height="300")>
+  <img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Raspberry-Pi.jpg" | height="300")>
+  <br /><br />
+</div>
+Major Components (1) Raspberry Pi 4GB, (2) PiCamera 2018 v.1.0, (3) 6mm CS Lens, & (4) Camera Stand for mounting
 
 # [Initial Raspberry Pi Setup:]
 
