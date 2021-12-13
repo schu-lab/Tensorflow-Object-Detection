@@ -69,8 +69,6 @@ python Chu-Object-Detection-Fall-2021.py
 (5b) [Run Object Detection Script (with model):]
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 
-<iframe src="https://giphy.com/embed/jq1vZCeUuMCNGqlN19" width="336" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jq1vZCeUuMCNGqlN19">via GIPHY</a></p>
-
 ** NOTE: Use android.tflite file for FILE_NAME **
 
 # [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]
