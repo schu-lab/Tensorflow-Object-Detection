@@ -2,7 +2,8 @@
 TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg and .xml [Pascal VOC format])
 
 <p align="center">
-  <img src=https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif alt="animated" />
+  <img src=https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif alt="animated" height="600" />
+  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" height="600" /><br />
 </p>
 
 [Project to utilize TensorFlow to detect objects] 
@@ -19,10 +20,6 @@ Data Sets:
 * [Handgun Images] https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS.zip
 * [Handgun Annotation] https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS_bbox.zip
 * [Android Toys Data Set - .jpg + .xml (Pascal VOC)] https://storage.googleapis.com/download.tensorflow.org/data/android_figurine.zip
- 
-<div align="center">
- <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" width="500" /><br /><br />
-</div>
  
 # Hardware Required:
 <div align="center">
