@@ -2,8 +2,8 @@
 TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg and .xml [Pascal VOC format])
 
 <p align="center">
-  <img src=https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif alt="animated" height="500" />
-  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" height="500" /><br />
+  <img src=https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif alt="animated" height="400" />
+  <img src="https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/HW-Setup.jpg" height="400" /><br />
 </p>
 
 [Project to utilize TensorFlow to detect objects] 
