@@ -20,9 +20,10 @@ Data Sets:
 * [Handgun Annotation] https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS_bbox.zip
 * [Android Toys Data Set - .jpg + .xml (Pascal VOC)] https://storage.googleapis.com/download.tensorflow.org/data/android_figurine.zip
 
-<div align="center">
-![](https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif)
-</div>
+
+<p align="center">
+  <img src=https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif alt="animated" />
+</p>
   
 # Hardware Required:
 <div align="center">
