@@ -20,8 +20,10 @@ Data Sets:
 * [Handgun Annotation] https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/WeaponsDetection/BasesDeDatos/WeaponS_bbox.zip
 * [Android Toys Data Set - .jpg + .xml (Pascal VOC)] https://storage.googleapis.com/download.tensorflow.org/data/android_figurine.zip
 
+<div align="center">
 ![](https://media.giphy.com/media/jq1vZCeUuMCNGqlN19/giphy-downsized-large.gif)
-
+</div>
+  
 # Hardware Required:
 <div align="center">
   <img src= "https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Pi-Camera.jpg" | height="300")>
@@ -32,67 +34,67 @@ Major Components (1) Raspberry Pi 4GB, (2) PiCamera 2018 v.1.0, (3) 6mm CS Lens,
 
 # [Initial Raspberry Pi Setup:]
 
-(1) [In Terminal: Show your Raspberry Pi version:]
+(1) [In Terminal: Show your Raspberry Pi version:]<br />
 cat /etc/os-release
 
-(2) [Update packages on your Raspberry Pi OS:]
+(2) [Update packages on your Raspberry Pi OS:]<br />
 sudo apt-get update
 
-(3) [Check Python Version:]
+(3) [Check Python Version:]<br />
 python --version
 
-(4) [Create / Move to a local directory:]
-cd Projects/
-mkdir Chu-Object-Detection-Fall-2021
-cd Chu-Object-Detection-Fall-2021
+(4) [Create / Move to a local directory:]<br />
+cd Projects/<br />
+mkdir Chu-Object-Detection-Fall-2021<br />
+cd Chu-Object-Detection-Fall-2021<br />
 
-(5) [Install virtualenv and upgrade pip:]
-python -m pip install --upgrade pip
+(5) [Install virtualenv and upgrade pip:]<br />
+python -m pip install --upgrade pip<br />
 python -m pip install virtual env
 
-(6) [Create a Python virtual enviroment for TFLite samples:]
+(6) [Create a Python virtual enviroment for TFLite samples:]<br />
 python -m venv ~/tflite
 
 
-# [Initialize Virtual Enviroment + Run Object Recognition Script:]
-(1) [Activate Virtual Enviroment; Run this command when a new Terminal is open:]
+# [Initialize Virtual Enviroment + Run Object Recognition Script:]<br />
+(1) [Activate Virtual Enviroment; Run this command when a new Terminal is open:]<br />
 source ~/tflite/bin/activate
 
-(2) [Change to working Directory:]
-pwd
+(2) [Change to working Directory:]<br />
+pwd<br />
 cd 'working directory with the the files'
 
-(3) [Download Repo:]
+(3) [Download Repo:]<br />
 git clone https://github.com/schu-lab/TensorFlow-Object-Detection.git
 
-(5a) [Run Object Detection Script (without model):]
+(5a) [Run Object Detection Script (without model):]<br />
 python Chu-Object-Detection-Fall-2021.py
 
-(5b) [Run Object Detection Script (with model):]
+(5b) [Run Object Detection Script (with model):]<br />
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 
 ** NOTE: Use android.tflite file for FILE_NAME **
 
-# [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]
+# [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]<br />
 NOTE: From TensorFlow Website: https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb
 
-(2) [Preparation - Install packages]:
-pip install -q tflite-model-maker
+(2) [Preparation - Install packages]:<br />
+pip install -q tflite-model-maker<br />
 pip install -q tflite-support
 
-(3) [Prepare Dataset by downloading images and annotating using Pascal VOC format (.xml)]:
-NOTE: Use labelImg or equivilent https://github.com/tzutalin/labelImg
+(3) [Prepare Dataset by downloading images and annotating using Pascal VOC format (.xml)]:<br />
+NOTE: Use labelImg or equivilent https://github.com/tzutalin/labelImg<br />
 
-(4) [Select model architecture]: EfficientDet-Lite'0'
+(4) [Select model architecture]: EfficientDet-Lite'0'<br />
 NOTE: Dependency on Speed to Precision '0' to '4'
 
-(5) [Train the TensorFlow model with Training Data]:
+(5) [Train the TensorFlow model with Training Data]:<br />
 NOTE: Typically 80% Training Model + 20% Test Model
 
-(6) [Test the TensorFlow model with Test Data]:
+(6) [Test the TensorFlow model with Test Data]:<br />
 NOTE: Note the Average Precision (AP) based on the model architecture
 
-(7) [Export the TensorFlow Lite model:]
+(7) [Export the TensorFlow Lite model:]<br />
 model.export(export_dir='.', tflite_filename='FILE_NAME.tflite')
 NOTE: FILE_NAME is name of the file
 
