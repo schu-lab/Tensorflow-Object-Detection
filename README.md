@@ -76,9 +76,6 @@ python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 [EfficientDef-Lite1:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff1_SC.tflite<br />
 
 # Demo:
-<p align="center">
-  <img src=https://media.giphy.com/media/3NVUrcoAaQYcmqM74x/giphy-downsized-large.gif alt="animated" height="400" />
-</p>
 See Video File: https://github.com/schu-lab/Tensorflow-Object-Detection/raw/main/Object-Recognition-Demo.mp4
 
 # [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]<br />
