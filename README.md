@@ -9,6 +9,7 @@ TensorFlow-Object-Detection using Python3, TensorFlow, OpenCV, and dataset (.jpg
 Slidedeck: https://github.com/schu-lab/TensorFlow-Object-Detection/blob/main/Chu-Object-Detection-Presentation.pptx
 
 References: 
+* https://www.tensorflow.org/
 * https://sci2s.ugr.es/weapons-detection
 * https://github.com/tensorflow/examples
 * https://www.digikey.com/en/maker/projects/how-to-perform-object-detection-with-tensorflow-lite-on-raspberry-pi/b929e1519c7c43d5b2c6f89984883588
