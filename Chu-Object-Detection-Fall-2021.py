@@ -61,7 +61,7 @@ def run(model: str, camera_id: int, width: int, height: int, num_threads: int,
       )
 
     counter += 1
-    image = cv2.flip(image, 1)
+    # Flips image if necessary: cv2.flip(image, 1)
 
     # Run object detection estimation using the model.
     detections = detector.detect(image)
