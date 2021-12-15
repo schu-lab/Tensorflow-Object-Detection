@@ -72,7 +72,7 @@ python Chu-Object-Detection-Fall-2021.py
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 
 ** NOTE: Use 'Gun-Model-Eff1_SC.tflite' or 'Gun-Model-Eff1_SC.tflite' ** <br />
-[EfficientDef-Lite0:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff0_SC.tflite
+[EfficientDef-Lite0:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff0_SC.tflite<br />
 [EfficientDef-Lite1:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff1_SC.tflite<br />
 
 # [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]<br />
