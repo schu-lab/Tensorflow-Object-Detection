@@ -79,7 +79,7 @@ python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 <p align="center">
   <img src=https://media.giphy.com/media/3NVUrcoAaQYcmqM74x/giphy-downsized-large.gif alt="animated" height="400" />
 </p>
-https://github.com/schu-lab/Tensorflow-Object-Detection/raw/main/Object-Recognition-Demo.mp4
+See Video File: https://github.com/schu-lab/Tensorflow-Object-Detection/raw/main/Object-Recognition-Demo.mp4
 
 # [Train a Custom Object Detection Model using TensorFlow Lite Model Maker]<br />
 NOTE: From TensorFlow Website: https://colab.research.google.com/github/khanhlvg/tflite_raspberry_pi/blob/main/object_detection/Train_custom_model_tutorial.ipynb
