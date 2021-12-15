@@ -71,7 +71,7 @@ python Chu-Object-Detection-Fall-2021.py
 (5b) [Run Object Detection Script (with model):]<br />
 python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
 
-** NOTE: Use 'Gun-Model-Eff1_SC.tflite' or 'Gun-Model-Eff1_SC.tflite'<br />
+** NOTE: Use 'Gun-Model-Eff1_SC.tflite' or 'Gun-Model-Eff1_SC.tflite' ** <br />
 [EfficientDef-Lite0:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff0_SC.tflite
 [EfficientDef-Lite1:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff1_SC.tflite<br />
 
