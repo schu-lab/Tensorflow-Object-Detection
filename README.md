@@ -69,7 +69,7 @@ git clone https://github.com/schu-lab/TensorFlow-Object-Detection.git
 python Chu-Object-Detection-Fall-2021.py
 
 (5b) [Run Object Detection Script (with model):]<br />
-python Chu-Object-Detection-Fall-2021.py --model 'FILE_NAME.tflite'
+python Chu-Object-Detection-Fall-2021.py
 
 ** NOTE: Use 'Gun-Model-Eff1_SC.tflite' or 'Gun-Model-Eff1_SC.tflite' ** <br />
 [EfficientDef-Lite0:] python Chu-Object-Detection-Fall-2021.py --model Gun-Model-Eff0_SC.tflite<br />
